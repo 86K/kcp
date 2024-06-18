@@ -13,7 +13,7 @@ namespace TestClient
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Press F1 send word.......");
+            Console.WriteLine("Press keycode A send word.......");
 
             SimpleKcpClient kcpClient = new SimpleKcpClient(50001, end);
             kcpClient.kcp.TraceListener = new ConsoleTraceListener();
@@ -29,7 +29,7 @@ namespace TestClient
             while (true)
             {
                 var k = Console.ReadKey();
-                if (k.Key == ConsoleKey.F1)
+                if (k.Key == ConsoleKey.A)
                 {
                     Send(kcpClient, "发送一条消息");
                 }

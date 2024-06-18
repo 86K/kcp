@@ -10,7 +10,7 @@ namespace TestServer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello , I am server!");
 
             SimpleKcpClient kcpClient = new SimpleKcpClient(40001);
             kcpClient.kcp.TraceListener = new ConsoleTraceListener();
