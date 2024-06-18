@@ -52,12 +52,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\kcptest.cs" />
-     <Compile Include="Assets\Program.cs" />
-     <None Include="Assets\Kcp.xml" />
-     <None Include="Assets\System.Runtime.CompilerServices.Unsafe.xml" />
-     <None Include="Assets\System.Memory.xml" />
-     <None Include="Assets\System.Buffers.xml" />
+     <Compile Include="Assets\Sample\Scripts\Program.cs" />
+     <Compile Include="Assets\Sample\Scripts\kcptest.cs" />
+     <Compile Include="Assets\Sample\Scripts\TestClass.cs" />
+     <None Include="Assets\kcp\Kcp.xml" />
+     <None Include="Assets\kcp\System.Runtime.CompilerServices.Unsafe.xml" />
+     <None Include="Assets\kcp\System.Memory.xml" />
+     <None Include="Assets\kcp\System.Buffers.xml" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.33f1c2/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -227,16 +228,16 @@
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.33f1c2/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Kcp">
- <HintPath>/Users/itsxwz/Github/kcp/UnityIL2CPPTest/Assets/Kcp.dll</HintPath>
+ <HintPath>/Users/itsxwz/Github/kcp/UnityIL2CPPTest/Assets/kcp/Kcp.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>/Users/itsxwz/Github/kcp/UnityIL2CPPTest/Assets/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ <HintPath>/Users/itsxwz/Github/kcp/UnityIL2CPPTest/Assets/kcp/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.Buffers">
- <HintPath>/Users/itsxwz/Github/kcp/UnityIL2CPPTest/Assets/System.Buffers.dll</HintPath>
+ <HintPath>/Users/itsxwz/Github/kcp/UnityIL2CPPTest/Assets/kcp/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
- <HintPath>/Users/itsxwz/Github/kcp/UnityIL2CPPTest/Assets/System.Memory.dll</HintPath>
+ <HintPath>/Users/itsxwz/Github/kcp/UnityIL2CPPTest/Assets/kcp/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.33f1c2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
